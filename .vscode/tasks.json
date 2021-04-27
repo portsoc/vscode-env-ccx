@@ -6,13 +6,13 @@
 
   "tasks": [
       {
-          "type":"shell",
-          "label": "runFile",
-          "presentation": {
-            "reveal": "always"
-          },
-          "problemMatcher": "$jshint",
-          "args": ["${file}"]
+        "type":"shell",
+        "label": "runFile",
+        "presentation": {
+          "reveal": "always"
+        },
+        "problemMatcher": "$jshint-stylish",
+        "args": ["${file}"]
       }
   ]
 }
